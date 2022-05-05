@@ -1,0 +1,7 @@
+{
+  "name": "pizzariaApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
