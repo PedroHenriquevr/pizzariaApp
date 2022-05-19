@@ -7,11 +7,40 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-searchbar placeholder="Pesquise" color = "medium" showCancelButton="focus"></ion-searchbar>
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="https://media-cdn.tripadvisor.com/media/photo-s/11/eb/36/f1/brazilian-pizza-frango.jpg">
+    </ion-thumbnail>
+    <ion-label>Pizza de Frango com Catupiry</ion-label>
+    <ion-badge color="dark">29,99</ion-badge>
+  </ion-item>
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="https://simplementerecetas.com/wp-content/uploads/2020/08/Pizaa-de-cuatro-quesos-750x500.jpg">
+    </ion-thumbnail>
+    <ion-label>Pizza de 4 queijos</ion-label>
+    <ion-badge color="dark">32,89</ion-badge>
+  </ion-item>
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="https://revistasaboresdosul.com.br/wp-content/uploads/2017/07/PIZZA-DE-BROCOLIS-Livro-de-Receitas-Mesa-Brasil-Sesc-1.jpg">
+    </ion-thumbnail>
+    <ion-label>Pizza de Brócolis</ion-label>
+    <ion-badge color="dark">27,50</ion-badge>
+  </ion-item>
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="https://www.comidaereceitas.com.br/img/sizeswp/1200x675/2008/07/Pizza_brigadeoraaa.jpg">
+    </ion-thumbnail>
+    <ion-label>Pizza de Brigadeiro</ion-label>
+    <ion-badge color="dark">30,00</ion-badge>
+  </ion-item>
+    <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="https://images.aws.nestle.recipes/resized/0c531715529e2ac6f29d583e721edbd4_pizza-leite-moca-banana-receitas-nestle_1200_600.jpg">
+    </ion-thumbnail>
+    <ion-label>Pizza de Banana </ion-label>
+    <ion-badge color="dark">25,99</ion-badge>
+  </ion-item>
 </ion-content>
